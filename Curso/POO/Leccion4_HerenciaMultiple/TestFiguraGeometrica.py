@@ -19,3 +19,9 @@ print(rectangulo1)
 #No se puede inicializar una clase abstracta.
 #figura = FiguraGeometrica()
 
+#################MRO################
+#Method Resolution Order
+#Permite ver orden de utilización de metodos
+print('MRO'.center(70,'-'))
+print (Cuadrado.mro())
+
