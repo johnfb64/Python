@@ -1,0 +1,23 @@
+Se pueden crear clases abstractas cuando se va a saber que tipo de dato se va a trabajar. 
+
+Ejemplo: 
+
+En este ejercicio de figuras geometicas, se tenian los metodos establecidos y se sabe que se procesara un rectangulo o un cuadrado. 
+
+Pero si no se supiera que tipo de figura se va a calcular o que calculos se deberan hacer respecto a la figura?
+
+Pues se crea una clase abstracta, con la cual los hijos se veran obligados a interactuar con esta, aun que no se sepa que tipo de figura se va a trabajar. 
+
+Si se definie un metodo abstracto en las clases hijas, estas se veran obligadas a utilizar esta implementación. 
+
+NOTA: NO SE PUEDEN CREAR OBJETOS DE CLASE ABSTRACTA. 
+
+
+
+
+#ABC = Abstract Base Class - abstractmethod = importa decorador y define metodos abstractos.
+
+#Decorador para declara metodos abstractos. 
+    @abstractmethod
+
+
