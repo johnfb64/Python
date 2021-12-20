@@ -30,3 +30,5 @@ imprmir_detalles(empleado1)
 
 gerente1 = Gerente('Carolina', 6000, 'Sistemas')
 imprmir_detalles(gerente1)
+#comentario de prueba para test de git
+
