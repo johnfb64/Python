@@ -1,0 +1,5 @@
+Scanner red en el momento se le puede declarar una ip y un puerto.
+Si el puerto esta abierto = 0
+Si el puerto esta cerrado = 111. 
+
+Esto se logra por medio el metodo "connect_ex".
